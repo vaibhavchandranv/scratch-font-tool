@@ -18,7 +18,7 @@ costumes_path = "chars"
 # and the actual characters to generate
 chars = {
 	"uppercase": list("ABCDEFGHIJKLMNOPQRSTUVWXYZ"),
-	"everything-else": list(" abcdefghijklmnopqrstuvwxyz0123456789-_.,!:'?()"),
+	"everything-else": list(" abcdefghijklmnopqrstuvwxyz0123456789-_.,!:'?()[]{ }\|/><`~\";+="),
 }
 
 # Ascender height in pixels
@@ -35,6 +35,14 @@ char_aliases = copy.deepcopy(chars)     # IGNORE
 # to resolve file-name conflicts
 replace(char_aliases, '.', 'dot')
 replace(char_aliases, ':', 'colon')
+replace(char_aliases, '/', 'slash')
+replace(char_aliases, '\\', 'backslash')
+replace(char_aliases, '*', 'star')
+replace(char_aliases, '?', 'qmark')
+replace(char_aliases, '|', 'pipe')
+replace(char_aliases, '\"', 'doublequotes')
+replace(char_aliases, '<', 'left')
+replace(char_aliases, '>', 'right')
 
 reorder(chars, char_aliases)    # IGNORE
 
