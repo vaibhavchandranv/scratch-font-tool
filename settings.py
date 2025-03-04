@@ -5,7 +5,7 @@
 # Font files (could be in a different directory)
 # MUST CHANGE IF YOU DON'T WANT THESE FONTS
 font_paths = [
-	"Ubuntu-Regular.ttf",
+	"sf-pro.ttf",
 ]
 
 # Name (or path) of the char-widths output file
@@ -25,7 +25,7 @@ chars = {
 char_height = 8
 
 # Number of subpixel steps (must be odd)
-steps = 3
+steps = 1
 
 import copy                             # IGNORE
 from settings_helper import *           # IGNORE
