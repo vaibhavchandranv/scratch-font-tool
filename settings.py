@@ -5,7 +5,7 @@
 # Font files (could be in a different directory)
 # MUST CHANGE IF YOU DON'T WANT THESE FONTS
 font_paths = [
-	"sf-pro.ttf",
+	"sf-pro.otf",
 ]
 
 # Name (or path) of the char-widths output file
