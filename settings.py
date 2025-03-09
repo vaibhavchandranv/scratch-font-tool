@@ -18,7 +18,7 @@ costumes_path = "chars"
 # and the actual characters to generate
 chars = {
 	"uppercase": list("ABCDEFGHIJKLMNOPQRSTUVWXYZ"),
-	"everything-else": list(" abcdefghijklmnopqrstuvwxyz0123456789-_.,!:'?()[]{ }\|/><`~\";+="),
+	"everything-else": list(" abcdefghijklmnopqrstuvwxyz0123456789-_.,!:'?()[]{ }\\|/><`~\";+="),
 }
 
 # Ascender height in pixels
